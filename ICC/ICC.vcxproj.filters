@@ -22,6 +22,12 @@
     <Filter Include="src\token">
       <UniqueIdentifier>{a8f2a5b4-3959-484f-b8ab-76ba0c6d7ad3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\ast">
+      <UniqueIdentifier>{2cc5e549-5c3d-4c2e-b902-7a1619c4e6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\parser">
+      <UniqueIdentifier>{3e631022-9a54-4998-b6e8-c2170b89bc1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -33,6 +39,24 @@
     <ClCompile Include="src\token\Token.cpp">
       <Filter>src\token</Filter>
     </ClCompile>
+    <ClCompile Include="src\ast\ASTNode.cpp">
+      <Filter>src\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ast\BlockStmt.cpp">
+      <Filter>src\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ast\FunctionDecl.cpp">
+      <Filter>src\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ast\IntegerLiteral.cpp">
+      <Filter>src\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ast\ReturnStmt.cpp">
+      <Filter>src\ast</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser\Parser.cpp">
+      <Filter>src\parser</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\lexer\Lexer.h">
@@ -43,6 +67,24 @@
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ast\ASTNode.h">
+      <Filter>src\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ast\BlockStmt.h">
+      <Filter>src\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ast\FunctionDecl.h">
+      <Filter>src\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ast\IntegerLiteral.h">
+      <Filter>src\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ast\ReturnStmt.h">
+      <Filter>src\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser\Parser.h">
+      <Filter>src\parser</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

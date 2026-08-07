@@ -1,0 +1,12 @@
+﻿  ASTNode.cpp
+  BlockStmt.cpp
+  FunctionDecl.cpp
+  IntegerLiteral.cpp
+  ReturnStmt.cpp
+  Lexer.cpp
+  main.cpp
+  Parser.cpp
+  Token.cpp
+  正在生成代码...
+  LINK : 没有找到 D:\file\project\Infine\Infine版本库\Infine\x64\Debug\ICC.exe 或上一个增量链接没有生成它；正在执行完全链接
+  ICC.vcxproj -> D:\file\project\Infine\Infine版本库\Infine\x64\Debug\ICC.exe
