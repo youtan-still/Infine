@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ICC/ICC.vcxproj" Id="6af4f504-36a7-4e07-b761-feb61df9501d" />
+</Solution>
