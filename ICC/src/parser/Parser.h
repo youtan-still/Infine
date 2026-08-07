@@ -1,8 +1,8 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 版本：0.0.2
-// 日期：2026-08-01
+// 版本：0.0.3
+// 日期：2026-08-02
 // -----------------------------------------------------------------------------
 
 #pragma once
@@ -10,10 +10,11 @@
 #include <memory>
 #include "../token/Token.h"
 #include "../ast/ASTNode.h"
-#include "../ast/BlockStmt.h"   // 新增
+#include "../ast/BlockStmt.h"
 
 namespace infine {
 
+    // 递归下降语法分析器
     class Parser {
     public:
         explicit Parser(const std::vector<Token>& tokens);
@@ -30,7 +31,7 @@ namespace infine {
         Token consume(TokenType type, const std::string& message);
 
         std::unique_ptr<ASTNode> parseFunction();
-        std::unique_ptr<BlockStmt> parseBlock();   // 返回类型改为 BlockStmt
+        std::unique_ptr<BlockStmt> parseBlock();
         std::unique_ptr<ASTNode> parseStatement();
         std::unique_ptr<ASTNode> parseExpression();
         std::unique_ptr<ASTNode> parsePrimary();

@@ -39,24 +39,6 @@
     <ClCompile Include="src\token\Token.cpp">
       <Filter>src\token</Filter>
     </ClCompile>
-    <ClCompile Include="src\ast\ASTNode.cpp">
-      <Filter>src\ast</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ast\BlockStmt.cpp">
-      <Filter>src\ast</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ast\FunctionDecl.cpp">
-      <Filter>src\ast</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ast\IntegerLiteral.cpp">
-      <Filter>src\ast</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ast\ReturnStmt.cpp">
-      <Filter>src\ast</Filter>
-    </ClCompile>
-    <ClCompile Include="src\parser\Parser.cpp">
-      <Filter>src\parser</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\lexer\Lexer.h">

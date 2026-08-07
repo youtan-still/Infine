@@ -1,8 +1,8 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 版本：0.0.2
-// 日期：2026-08-01
+// 版本：0.0.3
+// 日期：2026-08-02
 // -----------------------------------------------------------------------------
 
 #include "Parser.h"
@@ -54,7 +54,7 @@ namespace infine {
         std::string funcName = previous().lexeme;
         consume(TokenType::SYMBOL, "Expected '('");
         consume(TokenType::SYMBOL, "Expected ')'");
-        auto body = parseBlock();   // 现在直接得到 BlockStmt
+        auto body = parseBlock();
         return std::make_unique<FunctionDecl>(funcName, returnType, std::move(body));
     }
 

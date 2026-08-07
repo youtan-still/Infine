@@ -1,12 +1,1392 @@
 ﻿  ASTNode.cpp
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244: “参数”: 从“uint64_t”转换到“T”，可能丢失数据
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         with
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         [
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:             T=unsigned int
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         ]
+  (编译源文件“src/ast/ASTNode.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\SwapByteOrder.h(44,80):
+          查看对正在编译的函数 模板 实例化“T llvm::byteswap<unsigned __int64,void>(T) noexcept”的引用
+          with
+          [
+              T=unsigned __int64
+          ]
+  
   BlockStmt.cpp
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244: “参数”: 从“uint64_t”转换到“T”，可能丢失数据
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         with
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         [
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:             T=unsigned int
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         ]
+  (编译源文件“src/ast/BlockStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\SwapByteOrder.h(44,80):
+          查看对正在编译的函数 模板 实例化“T llvm::byteswap<unsigned __int64,void>(T) noexcept”的引用
+          with
+          [
+              T=unsigned __int64
+          ]
+  
   FunctionDecl.cpp
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\StringMap.h(99,55):
+          查看对正在编译的 类 模板 实例化“llvm::PointerLikeTypeTraits<llvm::StringMapEntryBase *>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(482,22): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(514,24): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1120,30): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1179,29): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1558,16): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1239,25): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1261,14): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1288,48): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1323,14): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1995,25): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(2030,53): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(2314,28): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Constants.h(816,66): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(78,7): warning C4624: “llvm::OverflowingBinaryOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(154,7): warning C4624: “llvm::PossiblyExactOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(200,7): warning C4624: “llvm::FPMathOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,13>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(400,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,13>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(399,7): warning C4624: “llvm::AddOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,15>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(403,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,15>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(402,7): warning C4624: “llvm::SubOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,17>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(406,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,17>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(405,7): warning C4624: “llvm::MulOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,25>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(409,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,25>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(408,7): warning C4624: “llvm::ShlOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::PossiblyExactOperator,27>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(413,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::PossiblyExactOperator,27>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(412,7): warning C4624: “llvm::AShrOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::PossiblyExactOperator,26>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(416,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::PossiblyExactOperator,26>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(415,7): warning C4624: “llvm::LShrOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,34>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(420,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,34>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(419,7): warning C4624: “llvm::GEPOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(513,20): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,47>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(562,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,47>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(561,7): warning C4624: “llvm::PtrToIntOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,48>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(599,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,48>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(598,7): warning C4624: “llvm::PtrToAddrOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,50>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(630,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,50>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(629,7): warning C4624: “llvm::BitCastOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,51>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(654,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,51>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(653,7): warning C4624: “llvm::AddrSpaceCastOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\CFG.h(125,23): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\CFG.h(261,23): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\CFG.h(286,23): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\ProfDataUtils.h(185,10): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(1556,74): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2021,26): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2032,26): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2055,60): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2087,76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2128,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2149,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2173,60): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2222,77): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2246,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3781,37): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3927,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3927,37): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3939,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3939,37): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244: “参数”: 从“uint64_t”转换到“T”，可能丢失数据
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         with
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         [
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:             T=unsigned int
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         ]
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\SwapByteOrder.h(44,80):
+          查看对正在编译的函数 模板 实例化“T llvm::byteswap<unsigned __int64,void>(T) noexcept”的引用
+          with
+          [
+              T=unsigned __int64
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\Alignment.h(89,56): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\Alignment.h(89,56):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DataLayout.h(148,37):
+          查看对正在编译的函数 模板 实例化“llvm::Align llvm::Align::Constant<1>(void)”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3290,52): warning C4244: “return”: 从“ptrdiff_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3290,52):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3303,16):
+          查看对正在编译的 类 模板 实例化“llvm::SwitchInst::CaseHandleImpl<llvm::SwitchInst,llvm::ConstantInt,llvm::BasicBlock>”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3286,14):
+          在编译 类 模板 成员函数“unsigned int llvm::SwitchInst::CaseHandleImpl<llvm::SwitchInst,llvm::ConstantInt,llvm::BasicBlock>::getSuccessorIndex(void) const”时
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3318,23):
+              请参阅 "llvm::SwitchInst::CaseHandle::setSuccessor" 中对 "llvm::SwitchInst::CaseHandleImpl<llvm::SwitchInst,llvm::ConstantInt,llvm::BasicBlock>::getSuccessorIndex" 的第一个引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3283,44): warning C4244: “return”: 从“const ptrdiff_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3283,44):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3430,15):
+          查看对正在编译的 类 模板 实例化“llvm::SwitchInst::CaseIteratorImpl<llvm::SwitchInst::ConstCaseHandle>”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3327,47):
+          查看对正在编译的 类 模板 实例化“llvm::SwitchInst::CaseHandleImpl<const llvm::SwitchInst,const llvm::ConstantInt,const llvm::BasicBlock>”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3283,14):
+          在编译 类 模板 成员函数“unsigned int llvm::SwitchInst::CaseHandleImpl<const llvm::SwitchInst,const llvm::ConstantInt,const llvm::BasicBlock>::getCaseIndex(void) const”时
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3473,5):
+              请参阅 "llvm::SwitchInst::findCaseValue" 中对 "llvm::SwitchInst::CaseHandleImpl<const llvm::SwitchInst,const llvm::ConstantInt,const llvm::BasicBlock>::getCaseIndex" 的第一个引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24): warning C4244: “return”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Verifier.h(59,34):
+          查看对正在编译的 类 模板 实例化“llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>”的引用
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(746,25):
+          查看对正在编译的 类 模板 实例化“llvm::DenseMapBase<llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>”的引用
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool,
+              KeyInfoT=llvm::DenseMapInfo<const llvm::MDNode *,void>,
+              BucketT=llvm::detail::DenseMapPair<const llvm::MDNode *,bool>
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(426,12):
+          在编译 类 模板 成员函数“unsigned int llvm::DenseMapBase<llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)”时
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool,
+              KeyInfoT=llvm::DenseMapInfo<const llvm::MDNode *,void>,
+              BucketT=llvm::detail::DenseMapPair<const llvm::MDNode *,bool>
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(767,17):
+              请参阅 "llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::DenseMap" 中对 "llvm::DenseMapBase<llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries" 的第一个引用
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Verifier.h(78,32):
+              请参阅 "llvm::TBAAVerifier::TBAAVerifier" 中对 "llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::DenseMap" 的第一个引用
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59): warning C4244: “return”: 从“uint64_t”转换到“unsigned char”，可能丢失数据
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\ModRef.h(329,14):
+          查看对正在编译的函数 模板 实例化“E llvm::BitmaskEnumDetail::operator &<llvm::CaptureComponents,void>(E,E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(163,25):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Underlying<E>(E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(137,3):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Mask<E>(void)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244: “return”: 从“const StorageType”转换到“unsigned char”，可能丢失数据
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244:         with
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244:         [
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244:             StorageType=unsigned short
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244:         ]
+  (编译源文件“src/ast/FunctionDecl.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(568,32):
+          查看对正在编译的函数 模板 实例化“bool llvm::Instruction::getSubclassData<llvm::AtomicCmpXchgInst::WeakField>(void) const”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instruction.h(1064,22):
+          查看对正在编译的函数 模板 实例化“bool llvm::Bitfield::get<llvm::AtomicCmpXchgInst::WeakField,unsigned short>(StorageType)”的引用
+          with
+          [
+              StorageType=unsigned short
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(209,52):
+          查看对正在编译的 类 模板 实例化“llvm::bitfields_details::Impl<llvm::AtomicCmpXchgInst::WeakField,unsigned short>”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(132,22):
+          在编译 类 模板 成员函数“unsigned char llvm::bitfields_details::Impl<llvm::AtomicCmpXchgInst::WeakField,unsigned short>::extract(StorageType)”时
+          with
+          [
+              StorageType=unsigned short
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(209,5):
+              请参阅 "llvm::Bitfield::get" 中对 "llvm::bitfields_details::Impl<llvm::AtomicCmpXchgInst::WeakField,unsigned short>::extract" 的第一个引用
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instruction.h(1064,22):
+              请参阅 "llvm::Instruction::getSubclassData" 中对 "llvm::Bitfield::get" 的第一个引用
+  
   IntegerLiteral.cpp
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\StringMap.h(99,55):
+          查看对正在编译的 类 模板 实例化“llvm::PointerLikeTypeTraits<llvm::StringMapEntryBase *>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(482,22): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(514,24): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1120,30): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1179,29): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1558,16): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1239,25): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1261,14): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1288,48): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1323,14): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1995,25): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(2030,53): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(2314,28): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Constants.h(816,66): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244: “参数”: 从“uint64_t”转换到“T”，可能丢失数据
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         with
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         [
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:             T=unsigned int
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         ]
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\SwapByteOrder.h(44,80):
+          查看对正在编译的函数 模板 实例化“T llvm::byteswap<unsigned __int64,void>(T) noexcept”的引用
+          with
+          [
+              T=unsigned __int64
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24): warning C4244: “return”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(399,58):
+          查看对正在编译的 类 模板 实例化“llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>”的引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(875,14):
+          查看对正在编译的 类 模板 实例化“llvm::DenseMapBase<llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>”的引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,
+              KeyInfoT=llvm::DenseMapInfo<void *,void>,
+              BucketT=llvm::detail::DenseMapPair<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>>
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(426,12):
+          在编译 类 模板 成员函数“unsigned int llvm::DenseMapBase<llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)”时
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,
+              KeyInfoT=llvm::DenseMapInfo<void *,void>,
+              BucketT=llvm::detail::DenseMapPair<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>>
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(909,22):
+              请参阅 "llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::SmallDenseMap" 中对 "llvm::DenseMapBase<llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries" 的第一个引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(402,68):
+              请参阅 "llvm::ReplaceableMetadataImpl::ReplaceableMetadataImpl" 中对 "llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::SmallDenseMap" 的第一个引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59): warning C4244: “return”: 从“uint64_t”转换到“unsigned char”，可能丢失数据
+  (编译源文件“src/ast/IntegerLiteral.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\ModRef.h(329,14):
+          查看对正在编译的函数 模板 实例化“E llvm::BitmaskEnumDetail::operator &<llvm::CaptureComponents,void>(E,E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(163,25):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Underlying<E>(E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(137,3):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Mask<E>(void)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+  
   ReturnStmt.cpp
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1120,30): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1179,29): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1558,16): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\StringMap.h(99,55):
+          查看对正在编译的 类 模板 实例化“llvm::PointerLikeTypeTraits<llvm::StringMapEntryBase *>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(482,22): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(514,24): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1239,25): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1261,14): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1288,48): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1323,14): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(1995,25): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(2030,53): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\InstrTypes.h(2314,28): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Constants.h(816,66): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(78,7): warning C4624: “llvm::OverflowingBinaryOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(154,7): warning C4624: “llvm::PossiblyExactOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(200,7): warning C4624: “llvm::FPMathOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,13>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(400,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,13>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(399,7): warning C4624: “llvm::AddOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,15>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(403,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,15>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(402,7): warning C4624: “llvm::SubOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,17>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(406,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,17>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(405,7): warning C4624: “llvm::MulOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,25>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(409,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::OverflowingBinaryOperator,25>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(408,7): warning C4624: “llvm::ShlOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::PossiblyExactOperator,27>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(413,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::PossiblyExactOperator,27>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(412,7): warning C4624: “llvm::AShrOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::PossiblyExactOperator,26>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(416,12):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::PossiblyExactOperator,26>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(415,7): warning C4624: “llvm::LShrOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,34>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(420,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,34>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(419,7): warning C4624: “llvm::GEPOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(513,20): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,47>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(562,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,47>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(561,7): warning C4624: “llvm::PtrToIntOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,48>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(599,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,48>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(598,7): warning C4624: “llvm::PtrToAddrOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,50>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(630,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,50>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(629,7): warning C4624: “llvm::BitCastOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7): warning C4624: “llvm::ConcreteOperator<llvm::Operator,51>”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(385,7):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(654,14):
+          查看对正在编译的 类 模板 实例化“llvm::ConcreteOperator<llvm::Operator,51>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Operator.h(653,7): warning C4624: “llvm::AddrSpaceCastOperator”: 已将析构函数隐式定义为“已删除”
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\CFG.h(125,23): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\CFG.h(261,23): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\CFG.h(286,23): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\ProfDataUtils.h(185,10): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(1556,74): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2021,26): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2032,26): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2055,60): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2087,76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2128,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2149,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2173,60): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2222,77): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(2246,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3781,37): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3927,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3927,37): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3939,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3939,37): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244: “参数”: 从“uint64_t”转换到“T”，可能丢失数据
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         with
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         [
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:             T=unsigned int
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         ]
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\SwapByteOrder.h(44,80):
+          查看对正在编译的函数 模板 实例化“T llvm::byteswap<unsigned __int64,void>(T) noexcept”的引用
+          with
+          [
+              T=unsigned __int64
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\Alignment.h(89,56): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\Alignment.h(89,56):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DataLayout.h(148,37):
+          查看对正在编译的函数 模板 实例化“llvm::Align llvm::Align::Constant<1>(void)”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3290,52): warning C4244: “return”: 从“ptrdiff_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3290,52):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3303,16):
+          查看对正在编译的 类 模板 实例化“llvm::SwitchInst::CaseHandleImpl<llvm::SwitchInst,llvm::ConstantInt,llvm::BasicBlock>”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3286,14):
+          在编译 类 模板 成员函数“unsigned int llvm::SwitchInst::CaseHandleImpl<llvm::SwitchInst,llvm::ConstantInt,llvm::BasicBlock>::getSuccessorIndex(void) const”时
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3318,23):
+              请参阅 "llvm::SwitchInst::CaseHandle::setSuccessor" 中对 "llvm::SwitchInst::CaseHandleImpl<llvm::SwitchInst,llvm::ConstantInt,llvm::BasicBlock>::getSuccessorIndex" 的第一个引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3283,44): warning C4244: “return”: 从“const ptrdiff_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3283,44):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3430,15):
+          查看对正在编译的 类 模板 实例化“llvm::SwitchInst::CaseIteratorImpl<llvm::SwitchInst::ConstCaseHandle>”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3327,47):
+          查看对正在编译的 类 模板 实例化“llvm::SwitchInst::CaseHandleImpl<const llvm::SwitchInst,const llvm::ConstantInt,const llvm::BasicBlock>”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3283,14):
+          在编译 类 模板 成员函数“unsigned int llvm::SwitchInst::CaseHandleImpl<const llvm::SwitchInst,const llvm::ConstantInt,const llvm::BasicBlock>::getCaseIndex(void) const”时
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(3473,5):
+              请参阅 "llvm::SwitchInst::findCaseValue" 中对 "llvm::SwitchInst::CaseHandleImpl<const llvm::SwitchInst,const llvm::ConstantInt,const llvm::BasicBlock>::getCaseIndex" 的第一个引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24): warning C4244: “return”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(399,58):
+          查看对正在编译的 类 模板 实例化“llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>”的引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(875,14):
+          查看对正在编译的 类 模板 实例化“llvm::DenseMapBase<llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>”的引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,
+              KeyInfoT=llvm::DenseMapInfo<void *,void>,
+              BucketT=llvm::detail::DenseMapPair<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>>
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(426,12):
+          在编译 类 模板 成员函数“unsigned int llvm::DenseMapBase<llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)”时
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,
+              KeyInfoT=llvm::DenseMapInfo<void *,void>,
+              BucketT=llvm::detail::DenseMapPair<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>>
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(909,22):
+              请参阅 "llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::SmallDenseMap" 中对 "llvm::DenseMapBase<llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries" 的第一个引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(402,68):
+              请参阅 "llvm::ReplaceableMetadataImpl::ReplaceableMetadataImpl" 中对 "llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::SmallDenseMap" 的第一个引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59): warning C4244: “return”: 从“uint64_t”转换到“unsigned char”，可能丢失数据
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\ModRef.h(329,14):
+          查看对正在编译的函数 模板 实例化“E llvm::BitmaskEnumDetail::operator &<llvm::CaptureComponents,void>(E,E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(163,25):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Underlying<E>(E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(137,3):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Mask<E>(void)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244: “return”: 从“const StorageType”转换到“unsigned char”，可能丢失数据
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244:         with
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244:         [
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244:             StorageType=unsigned short
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12): warning C4244:         ]
+  (编译源文件“src/ast/ReturnStmt.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(136,12):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instructions.h(568,32):
+          查看对正在编译的函数 模板 实例化“bool llvm::Instruction::getSubclassData<llvm::AtomicCmpXchgInst::WeakField>(void) const”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instruction.h(1064,22):
+          查看对正在编译的函数 模板 实例化“bool llvm::Bitfield::get<llvm::AtomicCmpXchgInst::WeakField,unsigned short>(StorageType)”的引用
+          with
+          [
+              StorageType=unsigned short
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(209,52):
+          查看对正在编译的 类 模板 实例化“llvm::bitfields_details::Impl<llvm::AtomicCmpXchgInst::WeakField,unsigned short>”的引用
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(132,22):
+          在编译 类 模板 成员函数“unsigned char llvm::bitfields_details::Impl<llvm::AtomicCmpXchgInst::WeakField,unsigned short>::extract(StorageType)”时
+          with
+          [
+              StorageType=unsigned short
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\Bitfields.h(209,5):
+              请参阅 "llvm::Bitfield::get" 中对 "llvm::bitfields_details::Impl<llvm::AtomicCmpXchgInst::WeakField,unsigned short>::extract" 的第一个引用
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Instruction.h(1064,22):
+              请参阅 "llvm::Instruction::getSubclassData" 中对 "llvm::Bitfield::get" 的第一个引用
+  
   Lexer.cpp
   main.cpp
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“src/main.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\StringMap.h(99,55):
+          查看对正在编译的 类 模板 实例化“llvm::PointerLikeTypeTraits<llvm::StringMapEntryBase *>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(482,22): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/main.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(514,24): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/main.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1120,30): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/main.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1179,29): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/main.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1558,16): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/main.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244: “参数”: 从“uint64_t”转换到“T”，可能丢失数据
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         with
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         [
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:             T=unsigned int
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         ]
+  (编译源文件“src/main.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\SwapByteOrder.h(44,80):
+          查看对正在编译的函数 模板 实例化“T llvm::byteswap<unsigned __int64,void>(T) noexcept”的引用
+          with
+          [
+              T=unsigned __int64
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\Alignment.h(89,56): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+  (编译源文件“src/main.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\Alignment.h(89,56):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DataLayout.h(148,37):
+          查看对正在编译的函数 模板 实例化“llvm::Align llvm::Align::Constant<1>(void)”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24): warning C4244: “return”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/main.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Verifier.h(59,34):
+          查看对正在编译的 类 模板 实例化“llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>”的引用
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(746,25):
+          查看对正在编译的 类 模板 实例化“llvm::DenseMapBase<llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>”的引用
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool,
+              KeyInfoT=llvm::DenseMapInfo<const llvm::MDNode *,void>,
+              BucketT=llvm::detail::DenseMapPair<const llvm::MDNode *,bool>
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(426,12):
+          在编译 类 模板 成员函数“unsigned int llvm::DenseMapBase<llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)”时
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool,
+              KeyInfoT=llvm::DenseMapInfo<const llvm::MDNode *,void>,
+              BucketT=llvm::detail::DenseMapPair<const llvm::MDNode *,bool>
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(767,17):
+              请参阅 "llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::DenseMap" 中对 "llvm::DenseMapBase<llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries" 的第一个引用
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Verifier.h(78,32):
+              请参阅 "llvm::TBAAVerifier::TBAAVerifier" 中对 "llvm::DenseMap<const llvm::MDNode *,bool,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::DenseMap" 的第一个引用
+          with
+          [
+              KeyT=const llvm::MDNode *,
+              ValueT=bool
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59): warning C4244: “return”: 从“uint64_t”转换到“unsigned char”，可能丢失数据
+  (编译源文件“src/main.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\ModRef.h(329,14):
+          查看对正在编译的函数 模板 实例化“E llvm::BitmaskEnumDetail::operator &<llvm::CaptureComponents,void>(E,E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(163,25):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Underlying<E>(E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(137,3):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Mask<E>(void)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+  
   Parser.cpp
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“src/parser/Parser.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\PointerLikeTypeTraits.h(54,70):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\StringMap.h(99,55):
+          查看对正在编译的 类 模板 实例化“llvm::PointerLikeTypeTraits<llvm::StringMapEntryBase *>”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(482,22): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/parser/Parser.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DerivedTypes.h(514,24): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/parser/Parser.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1120,30): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/parser/Parser.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1179,29): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/parser/Parser.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(1558,16): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/parser/Parser.cpp”)
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244: “参数”: 从“uint64_t”转换到“T”，可能丢失数据
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         with
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         [
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:             T=unsigned int
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44): warning C4244:         ]
+  (编译源文件“src/parser/Parser.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\bit.h(136,44):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\SwapByteOrder.h(44,80):
+          查看对正在编译的函数 模板 实例化“T llvm::byteswap<unsigned __int64,void>(T) noexcept”的引用
+          with
+          [
+              T=unsigned __int64
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\Alignment.h(89,56): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+  (编译源文件“src/parser/Parser.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\Alignment.h(89,56):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\DataLayout.h(148,37):
+          查看对正在编译的函数 模板 实例化“llvm::Align llvm::Align::Constant<1>(void)”的引用
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24): warning C4244: “return”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“src/parser/Parser.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(432,24):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(399,58):
+          查看对正在编译的 类 模板 实例化“llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>”的引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(875,14):
+          查看对正在编译的 类 模板 实例化“llvm::DenseMapBase<llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>”的引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,
+              KeyInfoT=llvm::DenseMapInfo<void *,void>,
+              BucketT=llvm::detail::DenseMapPair<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>>
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(426,12):
+          在编译 类 模板 成员函数“unsigned int llvm::DenseMapBase<llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)”时
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,
+              KeyInfoT=llvm::DenseMapInfo<void *,void>,
+              BucketT=llvm::detail::DenseMapPair<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>>
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\DenseMap.h(909,22):
+              请参阅 "llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::SmallDenseMap" 中对 "llvm::DenseMapBase<llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries" 的第一个引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>
+          ]
+              D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\IR\Metadata.h(402,68):
+              请参阅 "llvm::ReplaceableMetadataImpl::ReplaceableMetadataImpl" 中对 "llvm::SmallDenseMap<void *,std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>,4,llvm::DenseMapInfo<KeyT,void>,llvm::detail::DenseMapPair<KeyT,ValueT>>::SmallDenseMap" 的第一个引用
+          with
+          [
+              KeyT=void *,
+              ValueT=std::pair<llvm::ReplaceableMetadataImpl::OwnerTy,uint64_t>
+          ]
+  
+D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59): warning C4244: “return”: 从“uint64_t”转换到“unsigned char”，可能丢失数据
+  (编译源文件“src/parser/Parser.cpp”)
+      D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(129,59):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\Support\ModRef.h(329,14):
+          查看对正在编译的函数 模板 实例化“E llvm::BitmaskEnumDetail::operator &<llvm::CaptureComponents,void>(E,E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(163,25):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Underlying<E>(E)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+          D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include\llvm\ADT\BitmaskEnum.h(137,3):
+          查看对正在编译的函数 模板 实例化“unsigned char llvm::BitmaskEnumDetail::Mask<E>(void)”的引用
+          with
+          [
+              E=llvm::CaptureComponents
+          ]
+  
   Token.cpp
   正在生成代码...
-  LINK : 没有找到 D:\file\project\Infine\Infine版本库\Infine\x64\Debug\ICC.exe 或上一个增量链接没有生成它；正在执行完全链接
-  ICC.vcxproj -> D:\file\project\Infine\Infine版本库\Infine\x64\Debug\ICC.exe
+LINK : warning LNK4044: 无法识别的选项“/wd4146”；已忽略
+  LINK : 没有找到 D:\file\project\Infine\Infine\x64\Debug\ICC.exe 或上一个增量链接没有生成它；正在执行完全链接
+LLVMCore.lib(Value.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Value.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Type.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Type.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(User.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(User.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Metadata.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Metadata.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Instruction.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Instruction.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(BasicBlock.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(BasicBlock.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Function.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Function.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Module.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Module.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(ConstantFold.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(ConstantFold.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Constants.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Constants.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(IRBuilder.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(IRBuilder.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Verifier.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Verifier.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Instructions.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Instructions.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(LLVMContext.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(LLVMContext.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Use.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Use.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(LLVMContextImpl.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(LLVMContextImpl.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(ValueSymbolTable.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(ValueSymbolTable.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DebugInfo.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DebugInfo.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DebugProgramInstruction.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DebugProgramInstruction.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DataLayout.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DataLayout.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Operator.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Operator.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Globals.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Globals.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Attributes.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Attributes.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(IntrinsicInst.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(IntrinsicInst.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DebugInfoMetadata.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DebugInfoMetadata.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(ProfDataUtils.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(ProfDataUtils.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(MDBuilder.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(MDBuilder.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(ConstantRange.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(ConstantRange.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(ConstantRangeList.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(ConstantRangeList.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DebugLoc.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DebugLoc.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Intrinsics.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Intrinsics.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(AbstractCallSite.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(AbstractCallSite.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(TypeFinder.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(TypeFinder.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Comdat.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Comdat.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(ProfileSummary.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(ProfileSummary.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(FPEnv.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(FPEnv.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Dominators.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Dominators.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(ConvergenceVerifier.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(ConvergenceVerifier.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(PassRegistry.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(PassRegistry.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(PassManager.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(PassManager.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(VFABIDemangler.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(VFABIDemangler.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(MemoryModelRelaxationAnnotations.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(MemoryModelRelaxationAnnotations.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(GCStrategy.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(GCStrategy.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(EHPersonalities.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(EHPersonalities.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(InlineAsm.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(InlineAsm.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(Pass.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(Pass.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(LegacyPassManager.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(LegacyPassManager.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(LLVMRemarkStreamer.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(LLVMRemarkStreamer.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DiagnosticInfo.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DiagnosticInfo.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DiagnosticPrinter.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DiagnosticPrinter.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(ModuleSummaryIndex.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(ModuleSummaryIndex.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(OptBisect.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(OptBisect.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DiagnosticHandler.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DiagnosticHandler.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DIBuilder.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DIBuilder.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(DIExpressionOptimizer.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(DIExpressionOptimizer.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(NVVMIntrinsicUtils.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(NVVMIntrinsicUtils.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(SSAContext.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(SSAContext.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(CycleInfo.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(CycleInfo.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(PassInstrumentation.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(PassInstrumentation.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(VectorTypeUtils.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(VectorTypeUtils.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(BuiltinGCs.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(BuiltinGCs.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(IRPrintingPasses.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(IRPrintingPasses.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(PassTimingInfo.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(PassTimingInfo.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMCore.lib(PrintPasses.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMCore.lib(PrintPasses.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(raw_ostream.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(raw_ostream.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(CommandLine.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(CommandLine.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(SmallVector.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(SmallVector.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(MemAlloc.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(MemAlloc.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Twine.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Twine.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(APInt.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(APInt.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(SmallPtrSet.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(SmallPtrSet.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(ErrorHandling.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(ErrorHandling.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(APFloat.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(APFloat.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Error.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Error.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(StringMap.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(StringMap.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(StringSaver.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(StringSaver.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(StringRef.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(StringRef.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Path.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Path.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(RandomNumberGenerator.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(RandomNumberGenerator.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(TimeProfiler.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(TimeProfiler.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Debug.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Debug.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(KnownBits.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(KnownBits.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(StringExtras.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(StringExtras.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(FormattedStream.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(FormattedStream.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(FoldingSet.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(FoldingSet.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(MD5.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(MD5.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(ModRef.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(ModRef.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(FloatingPointMode.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(FloatingPointMode.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(PrettyStackTrace.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(PrettyStackTrace.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Chrono.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Chrono.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Timer.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Timer.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(ToolOutputFile.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(ToolOutputFile.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(InstructionCost.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(InstructionCost.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(BranchProbability.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(BranchProbability.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(SourceMgr.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(SourceMgr.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Statistic.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Statistic.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(IntegerInclusiveInterval.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(IntegerInclusiveInterval.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Regex.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Regex.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(ManagedStatic.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(ManagedStatic.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(NativeFormatting.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(NativeFormatting.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(FormatVariadic.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(FormatVariadic.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Program.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Program.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(MemoryBuffer.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(MemoryBuffer.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Signals.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Signals.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Process.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Process.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(VirtualFileSystem.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(VirtualFileSystem.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(ConvertUTFWrapper.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(ConvertUTFWrapper.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(DebugCounter.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(DebugCounter.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(GraphWriter.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(GraphWriter.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(WithColor.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(WithColor.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Optional.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Optional.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(xxhash.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(xxhash.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Threading.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Threading.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(JSON.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(JSON.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(ConvertUTF.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(ConvertUTF.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Unicode.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Unicode.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Signposts.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Signposts.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(CrashRecoveryContext.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(CrashRecoveryContext.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(YAMLParser.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(YAMLParser.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+LLVMSupport.lib(Jobserver.cpp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+LLVMSupport.lib(Jobserver.cpp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+libcpmt.lib(raisehan.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(ASTNode.obj 中)
+libcpmt.lib(raisehan.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(ASTNode.obj 中)
+ucrtd.lib(ucrtbased.dll) : error LNK2005: free 已经在 LLVMSupport.lib(rpmalloc.c.obj) 中定义
+LINK : warning LNK4098: 默认库“libcmt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LLVMCore.lib(Module.cpp.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl llvm::Triple::Triple(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&)" (??0Triple@llvm@@QEAA@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)，函数 "public: __cdecl llvm::Triple::Triple(char const *)" (??0Triple@llvm@@QEAA@PEBD@Z) 中引用了该符号
+LLVMCore.lib(LLVMContext.cpp.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl llvm::remarks::RemarkStreamer::~RemarkStreamer(void)" (??1RemarkStreamer@remarks@llvm@@QEAA@XZ)，函数 "public: void __cdecl llvm::LLVMContext::setMainRemarkStreamer(class std::unique_ptr<class llvm::remarks::RemarkStreamer,struct std::default_delete<class llvm::remarks::RemarkStreamer> >)" (?setMainRemarkStreamer@LLVMContext@llvm@@QEAAXV?$unique_ptr@VRemarkStreamer@remarks@llvm@@U?$default_delete@VRemarkStreamer@remarks@llvm@@@std@@@std@@@Z) 中引用了该符号
+LLVMCore.lib(LLVMContextImpl.cpp.obj) : error LNK2001: 无法解析的外部符号 "public: __cdecl llvm::remarks::RemarkStreamer::~RemarkStreamer(void)" (??1RemarkStreamer@remarks@llvm@@QEAA@XZ)
+LLVMCore.lib(LLVMRemarkStreamer.cpp.obj) : error LNK2001: 无法解析的外部符号 "public: __cdecl llvm::remarks::RemarkStreamer::~RemarkStreamer(void)" (??1RemarkStreamer@remarks@llvm@@QEAA@XZ)
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::StringRef __cdecl llvm::dwarf::OperationEncodingString(unsigned int)" (?OperationEncodingString@dwarf@llvm@@YA?AVStringRef@2@I@Z)，函数 "void __cdecl writeDIExpression(class llvm::raw_ostream &,class llvm::DIExpression const *,struct `anonymous namespace'::AsmWriterContext &)" (?writeDIExpression@@YAXAEAVraw_ostream@llvm@@PEBVDIExpression@2@AEAUAsmWriterContext@?A0x46B8280D@@@Z) 中引用了该符号
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::StringRef __cdecl llvm::dwarf::AttributeEncodingString(unsigned int)" (?AttributeEncodingString@dwarf@llvm@@YA?AVStringRef@2@I@Z)，函数 "void __cdecl writeDIExpression(class llvm::raw_ostream &,class llvm::DIExpression const *,struct `anonymous namespace'::AsmWriterContext &)" (?writeDIExpression@@YAXAEAVraw_ostream@llvm@@PEBVDIExpression@2@AEAUAsmWriterContext@?A0x46B8280D@@@Z) 中引用了该符号
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::StringRef __cdecl llvm::dwarf::MacinfoString(unsigned int)" (?MacinfoString@dwarf@llvm@@YA?AVStringRef@2@I@Z)，函数 "void __cdecl writeMDNodeBodyInternal(class llvm::raw_ostream &,class llvm::MDNode const *,struct `anonymous namespace'::AsmWriterContext &)" (?writeMDNodeBodyInternal@@YAXAEAVraw_ostream@llvm@@PEBVMDNode@2@AEAUAsmWriterContext@?A0x46B8280D@@@Z) 中引用了该符号
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::StringRef __cdecl llvm::dwarf::ConventionString(unsigned int)" (?ConventionString@dwarf@llvm@@YA?AVStringRef@2@I@Z)，函数 "void __cdecl writeMDNodeBodyInternal(class llvm::raw_ostream &,class llvm::MDNode const *,struct `anonymous namespace'::AsmWriterContext &)" (?writeMDNodeBodyInternal@@YAXAEAVraw_ostream@llvm@@PEBVMDNode@2@AEAUAsmWriterContext@?A0x46B8280D@@@Z) 中引用了该符号
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::StringRef __cdecl llvm::dwarf::LanguageString(unsigned int)" (?LanguageString@dwarf@llvm@@YA?AVStringRef@2@I@Z)，函数 "void __cdecl writeMDNodeBodyInternal(class llvm::raw_ostream &,class llvm::MDNode const *,struct `anonymous namespace'::AsmWriterContext &)" (?writeMDNodeBodyInternal@@YAXAEAVraw_ostream@llvm@@PEBVMDNode@2@AEAUAsmWriterContext@?A0x46B8280D@@@Z) 中引用了该符号
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::StringRef __cdecl llvm::dwarf::SourceLanguageNameString(enum llvm::dwarf::SourceLanguageName)" (?SourceLanguageNameString@dwarf@llvm@@YA?AVStringRef@2@W4SourceLanguageName@12@@Z)，函数 "void __cdecl writeMDNodeBodyInternal(class llvm::raw_ostream &,class llvm::MDNode const *,struct `anonymous namespace'::AsmWriterContext &)" (?writeMDNodeBodyInternal@@YAXAEAVraw_ostream@llvm@@PEBVMDNode@2@AEAUAsmWriterContext@?A0x46B8280D@@@Z) 中引用了该符号
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::StringRef __cdecl llvm::dwarf::EnumKindString(unsigned int)" (?EnumKindString@dwarf@llvm@@YA?AVStringRef@2@I@Z)，函数 "void __cdecl writeMDNodeBodyInternal(class llvm::raw_ostream &,class llvm::MDNode const *,struct `anonymous namespace'::AsmWriterContext &)" (?writeMDNodeBodyInternal@@YAXAEAVraw_ostream@llvm@@PEBVMDNode@2@AEAUAsmWriterContext@?A0x46B8280D@@@Z) 中引用了该符号
+LLVMCore.lib(AsmWriter.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::StringRef __cdecl llvm::dwarf::TagString(unsigned int)" (?TagString@dwarf@llvm@@YA?AVStringRef@2@I@Z)，函数 "public: void __cdecl `anonymous namespace'::MDFieldPrinter::printTag(class llvm::DINode const *)" (?printTag@MDFieldPrinter@?A0x46B8280D@@QEAAXPEBVDINode@llvm@@@Z) 中引用了该符号
+LLVMCore.lib(LLVMRemarkStreamer.cpp.obj) : error LNK2019: 无法解析的外部符号 "public: bool __cdecl llvm::remarks::RemarkStreamer::matchesFilter(class llvm::StringRef)" (?matchesFilter@RemarkStreamer@remarks@llvm@@QEAA_NVStringRef@3@@Z)，函数 "public: void __cdecl llvm::LLVMRemarkStreamer::emit(class llvm::DiagnosticInfoOptimizationBase const &)" (?emit@LLVMRemarkStreamer@llvm@@QEAAXAEBVDiagnosticInfoOptimizationBase@2@@Z) 中引用了该符号
+LLVMCore.lib(LLVMRemarkStreamer.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::Expected<enum llvm::remarks::Format> __cdecl llvm::remarks::parseFormat(class llvm::StringRef)" (?parseFormat@remarks@llvm@@YA?AV?$Expected@W4Format@remarks@llvm@@@2@VStringRef@2@@Z)，函数 "class llvm::Expected<class llvm::LLVMRemarkFileHandle> __cdecl llvm::setupLLVMOptimizationRemarks(class llvm::LLVMContext &,class llvm::StringRef,class llvm::StringRef,class llvm::StringRef,bool,class std::optional<unsigned __int64>)" (?setupLLVMOptimizationRemarks@llvm@@YA?AV?$Expected@VLLVMRemarkFileHandle@llvm@@@1@AEAVLLVMContext@1@VStringRef@1@11_NV?$optional@_K@std@@@Z) 中引用了该符号
+LLVMCore.lib(LLVMRemarkStreamer.cpp.obj) : error LNK2019: 无法解析的外部符号 "class llvm::Expected<class std::unique_ptr<struct llvm::remarks::RemarkSerializer,struct std::default_delete<struct llvm::remarks::RemarkSerializer> > > __cdecl llvm::remarks::createRemarkSerializer(enum llvm::remarks::Format,class llvm::raw_ostream &)" (?createRemarkSerializer@remarks@llvm@@YA?AV?$Expected@V?$unique_ptr@URemarkSerializer@remarks@llvm@@U?$default_delete@URemarkSerializer@remarks@llvm@@@std@@@std@@@2@W4Format@12@AEAVraw_ostream@2@@Z)，函数 "class llvm::Expected<class llvm::LLVMRemarkFileHandle> __cdecl llvm::setupLLVMOptimizationRemarks(class llvm::LLVMContext &,class llvm::StringRef,class llvm::StringRef,class llvm::StringRef,bool,class std::optional<unsigned __int64>)" (?setupLLVMOptimizationRemarks@llvm@@YA?AV?$Expected@VLLVMRemarkFileHandle@llvm@@@1@AEAVLLVMContext@1@VStringRef@1@11_NV?$optional@_K@std@@@Z) 中引用了该符号
+LLVMCore.lib(LLVMRemarkStreamer.cpp.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl llvm::remarks::RemarkStreamer::RemarkStreamer(class std::unique_ptr<struct llvm::remarks::RemarkSerializer,struct std::default_delete<struct llvm::remarks::RemarkSerializer> >,class std::optional<class llvm::StringRef>)" (??0RemarkStreamer@remarks@llvm@@QEAA@V?$unique_ptr@URemarkSerializer@remarks@llvm@@U?$default_delete@URemarkSerializer@remarks@llvm@@@std@@@std@@V?$optional@VStringRef@llvm@@@4@@Z)，函数 "class llvm::Expected<class llvm::LLVMRemarkFileHandle> __cdecl llvm::setupLLVMOptimizationRemarks(class llvm::LLVMContext &,class llvm::StringRef,class llvm::StringRef,class llvm::StringRef,bool,class std::optional<unsigned __int64>)" (?setupLLVMOptimizationRemarks@llvm@@YA?AV?$Expected@VLLVMRemarkFileHandle@llvm@@@1@AEAVLLVMContext@1@VStringRef@1@11_NV?$optional@_K@std@@@Z) 中引用了该符号
+LLVMCore.lib(LLVMRemarkStreamer.cpp.obj) : error LNK2019: 无法解析的外部符号 "public: class llvm::Error __cdecl llvm::remarks::RemarkStreamer::setFilter(class llvm::StringRef)" (?setFilter@RemarkStreamer@remarks@llvm@@QEAA?AVError@3@VStringRef@3@@Z)，函数 "class llvm::Expected<class llvm::LLVMRemarkFileHandle> __cdecl llvm::setupLLVMOptimizationRemarks(class llvm::LLVMContext &,class llvm::StringRef,class llvm::StringRef,class llvm::StringRef,bool,class std::optional<unsigned __int64>)" (?setupLLVMOptimizationRemarks@llvm@@YA?AV?$Expected@VLLVMRemarkFileHandle@llvm@@@1@AEAVLLVMContext@1@VStringRef@1@11_NV?$optional@_K@std@@@Z) 中引用了该符号
+LLVMCore.lib(DiagnosticInfo.cpp.obj) : error LNK2019: 无法解析的外部符号 "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl llvm::demangle(class std::basic_string_view<char,struct std::char_traits<char> >)" (?demangle@llvm@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$basic_string_view@DU?$char_traits@D@std@@@3@@Z)，函数 "public: virtual void __cdecl llvm::DiagnosticInfoDontCall::print(class llvm::DiagnosticPrinter &)const " (?print@DiagnosticInfoDontCall@llvm@@UEBAXAEAVDiagnosticPrinter@2@@Z) 中引用了该符号
+LLVMSupport.lib(ErrorHandling.cpp.obj) : error LNK2019: 无法解析的外部符号 __imp_RtlGetLastNtStatus，函数 "class std::error_code __cdecl llvm::mapLastWindowsError(void)" (?mapLastWindowsError@llvm@@YA?AVerror_code@std@@XZ) 中引用了该符号
+D:\file\project\Infine\Infine\x64\Debug\ICC.exe : fatal error LNK1120: 17 个无法解析的外部命令

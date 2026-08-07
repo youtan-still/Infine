@@ -1,8 +1,8 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 版本：0.0.2
-// 日期：2026-08-01
+// 版本：0.0.3
+// 日期：2026-08-02
 // 路径：ICC/src/ast/BlockStmt.cpp
 // -----------------------------------------------------------------------------
 
@@ -21,6 +21,14 @@ namespace infine {
         }
         result += ")";
         return result;
+    }
+
+    llvm::Value* BlockStmt::codegen(llvm::LLVMContext& context) {
+        llvm::Value* last = nullptr;
+        for (auto& stmt : statements) {
+            last = stmt->codegen(context);
+        }
+        return last;
     }
 
 } // namespace infine

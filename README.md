@@ -13,7 +13,7 @@ Infine follows the ESP design philosophy: Efficiency, Safety, and Performance. I
 
 ## 当前版本 / Current Version
 
-**0.0.2** — 语法分析器 + AST / Parser + AST
+**0.0.3** — LLVM IR 生成 / LLVM IR Generation
 
 ---
 
