@@ -1,9 +1,7 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 版本：0.0.3
-// 日期：2026-08-02
-// 路径：ICC/src/ast/ReturnStmt.h
+// 最后修改：2026-08-13
 // -----------------------------------------------------------------------------
 
 #pragma once
@@ -12,12 +10,14 @@
 
 namespace infine {
 
-    // return 语句节点
+    // return 语句节点，包含一个可选的返回表达式
+    // Return statement node, optionally containing a return expression
     class ReturnStmt : public ASTNode {
     public:
         explicit ReturnStmt(std::unique_ptr<ASTNode> expr);
+
         std::string print() const override;
-        llvm::Value* codegen(llvm::LLVMContext& context) override;
+        LLVMValueRef codegen(LLVMModuleRef module, LLVMBuilderRef builder) override;
 
     private:
         std::unique_ptr<ASTNode> expr;

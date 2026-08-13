@@ -1,12 +1,11 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 版本：0.0.3
-// 日期：2026-08-02
-// 路径：ICC/src/ast/BlockStmt.cpp
+// 最后修改：2026-08-13
 // -----------------------------------------------------------------------------
 
 #include "BlockStmt.h"
+#include <llvm-c/Core.h>
 
 namespace infine {
 
@@ -23,10 +22,12 @@ namespace infine {
         return result;
     }
 
-    llvm::Value* BlockStmt::codegen(llvm::LLVMContext& context) {
-        llvm::Value* last = nullptr;
+    // 依次生成每条语句的 IR，返回最后一条语句的值
+    // Generates IR for each statement sequentially, returns the last value
+    LLVMValueRef BlockStmt::codegen(LLVMModuleRef module, LLVMBuilderRef builder) {
+        LLVMValueRef last = nullptr;
         for (auto& stmt : statements) {
-            last = stmt->codegen(context);
+            last = stmt->codegen(module, builder);
         }
         return last;
     }

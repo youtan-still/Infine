@@ -1,3 +1,9 @@
+D:\file\project\Infine\Infine\ICC\src\ast\ASTNode.cpp;D:\file\project\Infine\Infine\ICC\x64\Release\ASTNode.obj
+D:\file\project\Infine\Infine\ICC\src\ast\BlockStmt.cpp;D:\file\project\Infine\Infine\ICC\x64\Release\BlockStmt.obj
+D:\file\project\Infine\Infine\ICC\src\ast\FunctionDecl.cpp;D:\file\project\Infine\Infine\ICC\x64\Release\FunctionDecl.obj
+D:\file\project\Infine\Infine\ICC\src\ast\IntegerLiteral.cpp;D:\file\project\Infine\Infine\ICC\x64\Release\IntegerLiteral.obj
+D:\file\project\Infine\Infine\ICC\src\ast\ReturnStmt.cpp;D:\file\project\Infine\Infine\ICC\x64\Release\ReturnStmt.obj
 D:\file\project\Infine\Infine\ICC\src\lexer\Lexer.cpp;D:\file\project\Infine\Infine\ICC\x64\Release\Lexer.obj
 D:\file\project\Infine\Infine\ICC\src\main.cpp;D:\file\project\Infine\Infine\ICC\x64\Release\main.obj
+D:\file\project\Infine\Infine\ICC\src\parser\Parser.cpp;D:\file\project\Infine\Infine\ICC\x64\Release\Parser.obj
 D:\file\project\Infine\Infine\ICC\src\token\Token.cpp;D:\file\project\Infine\Infine\ICC\x64\Release\Token.obj

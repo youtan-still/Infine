@@ -1,7 +1,15 @@
-﻿  main.cpp
+﻿  ASTNode.cpp
+  BlockStmt.cpp
+  FunctionDecl.cpp
+  IntegerLiteral.cpp
+  ReturnStmt.cpp
+  Lexer.cpp
+  main.cpp
+  Parser.cpp
+  Token.cpp
 LINK : warning LNK4044: 无法识别的选项“/wd4146”；已忽略
   正在生成代码
-  3 of 972 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+  3 of 1192 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成

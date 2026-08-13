@@ -1,9 +1,7 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 版本：0.0.3
-// 日期：2026-08-02
-// 路径：ICC/src/ast/FunctionDecl.h
+// 最后修改：2026-08-13
 // -----------------------------------------------------------------------------
 
 #pragma once
@@ -11,26 +9,28 @@
 #include "BlockStmt.h"
 #include <string>
 #include <memory>
-#include <llvm/IR/Module.h>
 
 namespace infine {
 
-    // 函数声明节点
+    // 函数声明节点，包含函数名、返回类型和函数体
+    // Function declaration node, containing name, return type, and body
     class FunctionDecl : public ASTNode {
     public:
         FunctionDecl(std::string name, std::string returnType,
             std::unique_ptr<BlockStmt> body);
-        std::string print() const override;
-        llvm::Value* codegen(llvm::LLVMContext& context) override;
 
-        // 获取 LLVM Module（用于输出 IR）
-        llvm::Module* getModule() const { return module; }
+        std::string print() const override;
+        LLVMValueRef codegen(LLVMModuleRef module, LLVMBuilderRef builder) override;
+
+        // 返回当前模块（供外部使用）
+        // Returns the current module (for external use)
+        LLVMModuleRef getModule() const { return module; }
 
     private:
         std::string name;
         std::string returnType;
         std::unique_ptr<BlockStmt> body;
-        llvm::Module* module = nullptr;
+        LLVMModuleRef module = nullptr;
     };
 
 } // namespace infine

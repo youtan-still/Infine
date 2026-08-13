@@ -1,14 +1,11 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 版本：0.0.3
-// 日期：2026-08-02
-// 路径：ICC/src/ast/ReturnStmt.cpp
+// 最后修改：2026-08-13
 // -----------------------------------------------------------------------------
 
 #include "ReturnStmt.h"
-#include <llvm/IR/IRBuilder.h>
-#include <llvm/IR/LLVMContext.h>
+#include <llvm-c/Core.h>
 
 namespace infine {
 
@@ -18,10 +15,11 @@ namespace infine {
         return "ReturnStmt(" + (expr ? expr->print() : "null") + ")";
     }
 
-    llvm::Value* ReturnStmt::codegen(llvm::LLVMContext& context) {
-        llvm::Value* retVal = expr ? expr->codegen(context) : nullptr;
-        llvm::IRBuilder<> builder(context);
-        return builder.CreateRet(retVal);
+    // 生成返回指令，如果有表达式则先计算表达式值
+    // Generates a return instruction, evaluating the expression if present
+    LLVMValueRef ReturnStmt::codegen(LLVMModuleRef module, LLVMBuilderRef builder) {
+        LLVMValueRef retVal = expr ? expr->codegen(module, builder) : nullptr;
+        return LLVMBuildRet(builder, retVal);
     }
 
 } // namespace infine

@@ -19,8 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\ast\ASTNode.cpp" />
+    <ClCompile Include="src\ast\BlockStmt.cpp" />
+    <ClCompile Include="src\ast\FunctionDecl.cpp" />
+    <ClCompile Include="src\ast\IntegerLiteral.cpp" />
+    <ClCompile Include="src\ast\ReturnStmt.cpp" />
     <ClCompile Include="src\lexer\Lexer.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\parser\Parser.cpp" />
     <ClCompile Include="src\token\Token.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -133,14 +139,14 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include;$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include;$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalOptions>/wd4146 /WX- /wd4146 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>LLVM-C.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/wd4146 %(AdditionalOptions)</AdditionalOptions>
     </Link>
@@ -157,14 +163,14 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include;$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\include;$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalOptions>/wd4146 /WX- /wd4146 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\file\project\Infine\Infine\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\third_party\clang+llvm-22.1.5-x86_64-pc-windows-msvc\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>LLVM-C.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/wd4146 %(AdditionalOptions)</AdditionalOptions>
     </Link>

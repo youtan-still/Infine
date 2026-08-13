@@ -1,15 +1,11 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 版本：0.0.3
-// 日期：2026-08-02
-// 路径：ICC/src/ast/IntegerLiteral.cpp
+// 最后修改：2026-08-13
 // -----------------------------------------------------------------------------
 
 #include "IntegerLiteral.h"
-#include <llvm/IR/Constants.h>
-#include <llvm/IR/LLVMContext.h>
-#include <llvm/IR/Type.h>
+#include <llvm-c/Core.h>
 
 namespace infine {
 
@@ -19,8 +15,11 @@ namespace infine {
         return "IntegerLiteral(" + std::to_string(value) + ")";
     }
 
-    llvm::Value* IntegerLiteral::codegen(llvm::LLVMContext& context) {
-        return llvm::ConstantInt::get(llvm::Type::getInt32Ty(context), value);
+    // 生成一个常量整数 IR 值
+    // Generates a constant integer IR value
+    LLVMValueRef IntegerLiteral::codegen(LLVMModuleRef module, LLVMBuilderRef builder) {
+        LLVMContextRef context = LLVMGetModuleContext(module);
+        return LLVMConstInt(LLVMInt32TypeInContext(context), value, 0);
     }
 
     int IntegerLiteral::getValue() const {

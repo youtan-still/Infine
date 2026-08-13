@@ -13,13 +13,13 @@ Infine follows the ESP design philosophy: Efficiency, Safety, and Performance. I
 
 ## 当前版本 / Current Version
 
-**0.0.3** — LLVM IR 生成 / LLVM IR Generation
+**0.0.4** — AST 驱动 IR 生成，全 LLVM C API / AST-driven IR generation, full LLVM C API
 
 ---
 
 ## 当前状态 / Status
 
-Infine 处于早期开发阶段，**在 1.0.0 稳定版发布之前（含 0.0.1），不接受任何外部贡献或 Pull Request**，感谢理解。  
+Infine 处于早期开发阶段，**在 1.0.0 稳定版发布之前（含 0.0.1），不接受任何外部贡献或 Pull Request** ，感谢理解。  
 Infine is in early development. **No external contributions or Pull Requests will be accepted until the 1.0.0 stable release (including 0.0.1).** Thank you for your understanding.
 
 ## 构建环境 / Build Environment
@@ -31,7 +31,7 @@ Project File: `Infine.sln`
 
 ## 许可证 / License
 
-- 源代码：MIT License  
+- 源代码：MIT License
 - 编译产物：CC0 1.0（公有领域 / Public Domain）
 
 ## 作者 / Author
