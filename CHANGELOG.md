@@ -2,6 +2,44 @@
 
 ---
 
+## 0.0.6 — 2026-09-05
+
+### 新增 / Added
+
+- 交互式 CLI 模式：无参数运行 `Infine` 进入命令行交互环境
+- 支持 `build <filename.ic>` 和 `run <filename.ic>` 命令
+- CLI 内置命令：`help`、`exit`、`clear`、`version`、`history`
+- `--version` 显示 `Infine 0.0.6`
+- 错误信息输出到 `stderr`，文件不存在时给出明确提示
+
+### 变更 / Changed
+
+- 从文件读取源码，替换硬编码字符串
+- 重构 `compileSource` 函数，支持直接编译内存中的源码
+- 所有对外输出统一使用 `Infine`，不再出现 `ICC` 字样
+- 帮助信息中 `Usage` 改为 `Infine <command> [filename]`
+- 无参数运行时自动进入 CLI 交互模式
+
+---
+
+## 0.0.5 — 2026-08-18
+
+### 新增 / Added
+
+- 完整编译流程：从 `.ic` 源文件生成 Windows 可执行文件（`.exe`）
+- 调用 `llc` 将 LLVM IR 编译为目标文件（`.obj`）
+- 调用 `lld-link` 链接生成 `.exe`，支持无运行时依赖（`/nodefaultlib` + `/entry:main`）
+- 命令行参数支持：`Infine.exe <源文件.ic>`
+- 自动清理临时文件（`output.ll`、`output.obj`）
+- 错误处理与友好提示，编译失败返回非 0 退出码
+
+### 变更 / Changed
+
+- 重构 `main.cpp`：移除 LLVM Target C API（避免格式兼容问题），改用稳定的系统工具链调用
+- 所有外部工具调用依赖系统 `PATH`，无硬编码路径，便于分发
+
+---
+
 ## 0.0.4 — 2026-08-13
 
 ### 新增 / Added

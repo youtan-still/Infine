@@ -1,0 +1,22 @@
+# 编译产物
+x64/
+ICC/x64/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.log
+*.tlog
+*.recipe
+*.exe
+*.dll
+*.lib
+
+# Visual Studio
+.vs/
+
+# 临时文件
+output.ll
+a.exe
