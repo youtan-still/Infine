@@ -13,7 +13,7 @@ Infine follows the ESP design philosophy: Efficiency, Safety, and Performance. I
 
 ## 当前版本 / Current Version
 
-**0.0.6** — 交互式 CLI 与文件编译 / Interactive CLI with file compilation
+**0.0.7** — 多函数声明支持 / Multiple function declarations support
 
 ---
 

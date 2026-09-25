@@ -1,7 +1,7 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 最后修改：2026-09-05
+// 最后修改：2026-09-25
 // -----------------------------------------------------------------------------
 
 #include <iostream>
@@ -10,6 +10,8 @@
 #include <cstdlib>
 #include <filesystem>
 #include <vector>
+#include <memory>
+#include <stdexcept>
 #include <llvm-c/Core.h>
 #include <llvm-c/BitWriter.h>
 #include "lexer/Lexer.h"
@@ -22,7 +24,7 @@ namespace fs = std::filesystem;
 // 打印帮助信息
 // ============================================================================
 void printHelp() {
-    std::cout << "Infine 0.0.6\n"
+    std::cout << "Infine 0.0.7\n"
         << "Usage: Infine <command> [filename]\n\n"
         << "Commands:\n"
         << "  build <filename.ic>    Compile the specified Infine source file\n"
@@ -36,7 +38,7 @@ void printHelp() {
 // 打印版本信息
 // ============================================================================
 void printVersion() {
-    std::cout << "Infine 0.0.6\n";
+    std::cout << "Infine 0.0.7\n";
 }
 
 // ============================================================================
@@ -68,20 +70,26 @@ int runExecutable(const std::string& exePath) {
 // 返回值：true 表示成功，false 表示失败
 // ============================================================================
 bool compileSource(const std::string& code, bool runAfterBuild = false) {
-    // ---- 词法分析 ----
-    infine::Lexer lexer(code);
-    auto tokens = lexer.tokenize();
+    // ---- 词法分析与语法分析（可能抛异常）----
+    std::unique_ptr<infine::ASTNode> ast;
+    try {
+        infine::Lexer lexer(code);
+        auto tokens = lexer.tokenize();
 
-    // ---- 语法分析 ----
-    infine::Parser parser(tokens);
-    auto ast = parser.parseProgram();
+        infine::Parser parser(tokens);
+        ast = parser.parseProgram();
+    }
+    catch (const std::exception& e) {
+        std::cerr << "Error: " << e.what() << "\n";
+        return false;
+    }
 
     // ---- 初始化 LLVM ----
     LLVMContextRef context = LLVMContextCreate();
     LLVMModuleRef module = LLVMModuleCreateWithNameInContext("Infine", context);
     LLVMBuilderRef builder = LLVMCreateBuilderInContext(context);
 
-    // ---- 生成 IR ----
+    // ---- 生成 IR（多函数共享同一 Module）----
     LLVMValueRef func = ast->codegen(module, builder);
     if (!func) {
         std::cerr << "Error: IR generation failed\n";
@@ -181,7 +189,7 @@ void runCliMode() {
     std::string line;
     std::vector<std::string> history;
 
-    std::cout << "Infine 0.0.6 - Interactive CLI\n";
+    std::cout << "Infine 0.0.7 - Interactive CLI\n";
     std::cout << "Type 'help' for commands, 'exit' to quit.\n\n";
 
     while (true) {

@@ -20,3 +20,20 @@ ICC/x64/
 # 临时文件
 output.ll
 a.exe
+x64/
+third_party/
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.log
+*.tlog
+*.recipe
+.vs/
+output.ll
+a.exe
+x64

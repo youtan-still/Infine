@@ -1,7 +1,7 @@
 ﻿// -----------------------------------------------------------------------------
 // Infine 语言开发工具
 // 作者：游潭 (youtan)（AI 辅助生成：Deepseek V4 Flash）
-// 最后修改日期：2026-08-02
+// 最后修改：2026-09-25
 // -----------------------------------------------------------------------------
 
 #include "Parser.h"
@@ -9,6 +9,7 @@
 #include "../ast/ReturnStmt.h"
 #include "../ast/BlockStmt.h"
 #include "../ast/FunctionDecl.h"
+#include "../ast/ProgramDecl.h"
 #include <iostream>
 #include <stdexcept>
 
@@ -42,7 +43,11 @@ namespace infine {
     }
 
     std::unique_ptr<ASTNode> Parser::parseProgram() {
-        return parseFunction();
+        auto program = std::make_unique<ProgramDecl>();
+        while (!isAtEnd()) {
+            program->addFunction(parseFunction());
+        }
+        return program;
     }
 
     std::unique_ptr<ASTNode> Parser::parseFunction() {

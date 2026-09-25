@@ -2,6 +2,24 @@
 
 ---
 
+## 0.0.7 — 2026-09-25
+
+### 新增 / Added
+
+- 支持在一个源文件中声明多个函数
+- 新增 `ProgramDecl` 顶层容器节点，统一管理所有函数声明
+- 所有函数共享同一个 `LLVMModuleRef`，生成单一 IR 模块
+- 词法/语法分析阶段的异常被捕获，输出错误信息后干净退出（退出码非 0）
+- CLI 交互模式默认启用：无参数运行 `Infine` 直接进入命令行界面
+
+### 变更 / Changed
+
+- `Parser::parseProgram()` 改为循环解析所有顶层函数
+- `compileSource` 增加 `try-catch`，避免解析失败导致程序崩溃
+- 帮助信息中的 `Usage` 改为 `Infine <command> [filename]`
+
+---
+
 ## 0.0.6 — 2026-09-05
 
 ### 新增 / Added
